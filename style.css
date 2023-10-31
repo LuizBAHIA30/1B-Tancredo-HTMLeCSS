@@ -5,12 +5,12 @@ body{
  }
  
  header{
-        padding: 20px 0;
+     padding: 20px 0;
  }
  .caixa{
-      display: inline;
-      position: relative;
-      width: 800px;
+     display: inline;
+     position: relative;
+     width: 800px;
      margin: 0 auto;
  }
  h3{
@@ -18,21 +18,27 @@ body{
  }
  
  h1{
-      font-size: 30px;
-      color: rgb(0, 0, 0);
+     font-size: 30px;
+     color: rgb(0, 0, 0);
  }
  
  .logo{
-      width: 10%;
-      border-radius: 100%
-      margin-left 15px;
+      width: 15%;
+      border-radius: 100%;
+      margin-left: 15px;
       box-shadow: 2px 2px #111111;
  }
  
- nav a {
-       font-size: 20px;
-       padding-left: 20px;
-       color: #121212;
-       text-decoration: none;
-       text-transform: uppercase;
+nav {
+     position: absolute;
+     top: 90px;
+     right: 65px;
+}
+
+nav a {
+     font-size: 20px;
+     padding-left: 20px;
+     color: #121212;
+     text-decoration: none;
+     text-transform: uppercase;
  }
